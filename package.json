@@ -1,0 +1,26 @@
+{
+  "name": "gemini-commit-cli",
+  "version": "1.0.0",
+  "description": "A Node.js CLI tool powered by Google Gemini API to automatically generate Conventional Commit messages from staged git diffs.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "gemini-commit": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "git",
+    "gemini",
+    "ai",
+    "cli",
+    "commit-messages",
+    "developer-productivity"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^2.23.0"
+  }
+}
